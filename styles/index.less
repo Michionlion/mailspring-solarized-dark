@@ -40,6 +40,13 @@ background color.)
   border-image-slice: 1;
 }
 
+.thread-list .list-item.focused {
+  background: @background-primary;
+  border-bottom: 2px solid lighten(@list-border, 10%);
+  padding-bottom: -1px;
+  padding-top: 1px;
+}
+
 .thread-icon:not(.thread-icon-unread):not(.thread-icon-star) {
   -webkit-filter: invert(100%);
 }
@@ -60,5 +67,5 @@ img.content-light {
 }
 
 .thread-list .list-item:not(.unread):not(.selected):not(.focused) {
-  color: #aaa;
+  color: @base1;
 }
