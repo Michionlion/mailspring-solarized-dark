@@ -2,6 +2,8 @@
 
 A dark Mailspring theme inspired by Ethan Schoonover's Solarized color palette.
 
+Modified in this fork to have a better mail message item border (instead of that ugly orange) and more closely mirror Solarized Dark colors.
+
 ## Install
 
 1. Clone or download the project.
